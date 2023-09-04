@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AppCrudAdo_0209.props" />
+</Project>

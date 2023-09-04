@@ -1,0 +1,29 @@
+﻿@model Contacto
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Agregar contacto</h1>
+
+
+<form class="" asp-controller="Home" asp-action="Agregar" method="post">
+    <div class="form-group">
+    <label for="Nombre">Nombre</label>
+    <input type="text" id="Nombre" name="Nombre" class="form-control" requerid />
+    </div>
+
+    <div class="form-group">
+        <label for="Telefono">Teléfono</label>
+        <input type="text" id="Telefono" name="Telefono" class="form-control" requerid />
+    </div>
+
+    <div class="form-group">
+        <label for="Correo">Correo</label>
+        <input type="text" id="Correo" name="Correo" class="form-control" requerid />
+    </div>
+
+        <button type="submit" class="btn btn-primary">Agregar</button>
+        <a class="btn btn-danger" asp-controller="Home" asp-action="Index">Regresar</a>
+   
+</form>
+
